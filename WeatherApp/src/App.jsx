@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import './App.css';
-import icon from './assets/cloud_sun_icon.png';
+import "./App.css";
+import icon from "./assets/cloud_sun_icon.png";
 
 function App() {
   const [data, setData] = useState({});
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="app" >
+    <div className="app">
       <div className="logo">
         <img src={icon} width={70} height={70} alt="" />
         <h2>WeatherApp</h2>
@@ -46,11 +46,6 @@ function App() {
           <div className="description">
             {data.weather ? (
               <>
-                {/*display the icon for the weather condition*/}
-                {/* <img
-                  src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
-                  alt=""
-                /> */}
                 <p>{data.weather[0].main}</p>
               </>
             ) : null}
