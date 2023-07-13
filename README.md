@@ -1,7 +1,8 @@
 # WeatherApp
 
-My first try using a public API to create something. It's a mini application that describes weather conditions(eg. clourd, clear sky), shows Temperature, Air pressure, Humidity, Wind speed.
-If BBC weather ever crashes use this one :) you will be enjoying a view as a background as well.
+My first try at using a public API to create something. It's a mini application that describes weather conditions (eg. cloud, clear sky), shows Temperature, atmospheric Pressure, Humidity, and wind speed.
+
+If BBC Weather ever crashes, use this one :) you will be enjoying a view as a background as well.
 
 
 
