@@ -21,17 +21,17 @@ function App() {
   };
 
   return (
-    <div className="app" /*style={backgroundStyle}*/>
+    <div className="app" >
       <div className="logo">
         <img src={icon} width={70} height={70} alt="" />
-        <h2>Weather</h2>
+        <h2>WeatherApp</h2>
       </div>
       <div className="search">
         <input
           value={location}
           onChange={(event) => setLocation(event.target.value)}
           onKeyPress={searchLocation} //use the searchLocation function
-          placeholder="City: "
+          placeholder="Your preferred place "
           type="text"
         />
       </div>
